@@ -38,6 +38,11 @@ H3 - título cursivo secundário (azul):
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(img/imgtextura.png);
+    position: absolute;
+}
+
 nav > ul {
     list-style-type: none;
     display: flex;
@@ -46,6 +51,7 @@ nav > ul {
     justify-content: space-evenly;
     align-items: center;
     height: 30px;
+    background-color: white;
 }
 
 a {
@@ -96,3 +102,48 @@ nav > ul > li > a:hover {
     margin-top: 15%;
 }
 
+#historia {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 70vw;
+    margin: auto;
+    top: -20px;
+    box-shadow: 0px 9px 10px #00000026;
+    padding-bottom: 30px;
+}
+
+#historia > h1 {
+    font-family: beinglove;
+    font-weight: normal;
+    text-transform: lowercase;
+    font-size: 3.8em;
+    color: #5e2e28;
+    text-decoration: underline #5e2e2880 1px;
+    text-underline-offset: 8px;
+}
+
+#historia > h2 {
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    color: #807269;
+    text-decoration: underline #5e2e2880 1px;
+    text-underline-offset: 8px;
+    margin-top: -20px;
+}
+
+#historia > img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50vw;
+}
+
+#historia > p {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    width: 50vw;
+    font-size: 0.8em;
+    color: #5e2e28;
+}
