@@ -20,12 +20,28 @@ H3 - título cursivo secundário (azul):
 */
 
 @media screen and (max-width: 699px) {
+    #inicial {
+        background-image: url(img/imgprincipal.png);
+    }
+
     #menucompleto {
         display: none;
+    }
+
+    a {
+        font-size: 4vw;
     }
 }
 
 @media screen and (min-width: 700px) {
+    #inicial {
+        background-image: url(img/imgprincipal2.png);
+    }
+
+    a {
+        font-size: 1.2em;
+    }
+
     #menumobile {
         display: none;
     }
@@ -51,13 +67,12 @@ nav > ul {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 4vh;
+    height: 5vh;
     background-color: white;
 }
 
 a {
     font-family: 'Lato', sans-serif;
-    font-size: 4vw;
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
@@ -77,12 +92,11 @@ nav > ul > li > a:hover {
 
 
 #inicial {
-    background-image: url(img/imgprincipal.png);
+    background-position: center bottom;
     height: 97vh;
     width: 100vw;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-position: center bottom;
     background-size: cover;
     text-align: center;
     padding-top: 13vh;
