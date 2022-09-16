@@ -47,6 +47,32 @@ H3 - título cursivo secundário (azul):
         font-size: 3.5vw;
         border-radius: 7px;
     }
+
+    #historia {
+        text-align: center;
+        width: 70vw;
+        top: -2vh;
+        padding-bottom: 4vh;
+    }
+
+    #historia > img {
+        display: none;
+     }
+
+    #historia > div > h1 {
+        font-size: 20vw;
+    }
+
+    #historia > div > h2 {
+        font-size: 8vw;
+    }
+
+    #historia > div > p {
+        margin: auto;
+        width: 50vw;
+        font-size: 4vw;
+    }
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -76,6 +102,43 @@ H3 - título cursivo secundário (azul):
     .botao {
         font-size: 1em;
         border-radius: 10px;
+    }
+
+    #historia {
+        display: flex;
+        justify-content: space-evenly;
+        width: 75vw;
+        max-width: 1200px;
+        top: -5vh;
+        padding: 50px 0px;
+    }
+
+    #historia > img {
+        align-self: center;
+        width: 40%;
+    }
+
+    #historia > div {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    #historia > div > img {
+        display: none;
+    }
+
+    #historia > div > h1 {
+        font-size: 5em;
+    }
+    
+    #historia > div > h2 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    #historia > div > p {
+        font-size: 0.8em;
     }
 }
 
@@ -147,47 +210,38 @@ nav > ul > li > a:hover {
 
 #historia {
     position: relative;
-    text-align: center;
     background-color: white;
     border-radius: 20px;
-    width: 70vw;
     margin: auto;
-    top: -2vh;
     box-shadow: 0px 9px 10px #00000026;
-    padding-bottom: 4vh;
 }
 
-#historia > h1 {
+#historia > div > h1 {
     font-family: beinglove;
     font-weight: normal;
     text-transform: lowercase;
-    font-size: 20vw;
     color: #6b2a23;
     text-decoration: underline #6b2a2380 1px;
     text-underline-offset: 1vh;
 }
 
-#historia > h2 {
+#historia > div > h2 {
     font-family: 'EB Garamond', serif;
     text-transform: uppercase;
-    font-size: 8vw;
     color: #867369;
     text-decoration: underline #6b2a2380 1px;
     text-underline-offset: 1.5vh;
-    margin-top: -3vh;
+    margin-top: -2.5vh;
 }
 
-#historia > img {
+#historia > div > img {
     margin-top: 4vh;
     margin-bottom: 2vh;
     width: 50vw;
 }
 
-#historia > p {
-    margin: auto;
+#historia > div > p {
     font-family: 'Lato', sans-serif;
-    width: 50vw;
-    font-size: 4vw;
     color: #6b2a23;
 }
 
@@ -198,6 +252,7 @@ hr {
     border-right: none;
     height: 2vh;
     width: 70vw;
+    max-width: 1200px;
     margin: 4vh auto 0 auto;
 }
 
