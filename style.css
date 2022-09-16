@@ -19,7 +19,7 @@ H3 - título cursivo secundário (azul):
 #0092e6
 */
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 767px) {
     #inicial {
         background-image: url(img/imgprincipal.png);
     }
@@ -31,9 +31,25 @@ H3 - título cursivo secundário (azul):
     a {
         font-size: 4vw;
     }
+
+    #inicial {
+        background-position: center bottom;
+        padding-top: 13vh;
+    }
+
+    #inicial > img {
+        margin: auto;
+        width: 60vw;
+        margin-bottom: 15vw;
+    }
+    
+    .botao {
+        font-size: 3.5vw;
+        border-radius: 7px;
+    }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
     #inicial {
         background-image: url(img/imgprincipal2.png);
     }
@@ -44,6 +60,22 @@ H3 - título cursivo secundário (azul):
 
     #menumobile {
         display: none;
+    }
+
+    #inicial {
+        background-position: center center;
+        padding-top: 8vh;
+    }
+
+    #inicial > img {
+        margin: auto;
+        width: 25vw;
+        margin-bottom: 3.5vh;
+    }
+
+    .botao {
+        font-size: 1em;
+        border-radius: 10px;
     }
 }
 
@@ -81,6 +113,7 @@ a {
 nav > ul > li > a {
     color: #002857;
 }
+
 nav > ul > li > a:hover {
     color: #0092e6;
 }
@@ -92,29 +125,23 @@ nav > ul > li > a:hover {
 
 
 #inicial {
-    background-position: center bottom;
     height: 97vh;
     width: 100vw;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 13vh;
+
 }
 
 #inicial > img {
     display: block;
-    margin: auto;
-    width: 60vw;
-    margin-bottom: 5vh;
 }
 
 .botao {
-    font-size: 3.5vw;
     color: white;
     font-weight: 800;
     background-color: #002857;
-    border-radius: 7px;
     padding: 4px 35px;
 }
 
