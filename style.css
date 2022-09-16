@@ -131,13 +131,62 @@ H3 - título cursivo secundário (azul):
     }
 
     #contatocontainer > div > h3 {
-        font-size: 7vw;
+        font-size: 7.3vw;
         margin-top: -2vh;
     }
 
     .dias {
         text-align: center;
         font-size: 3.4vw;
+    }
+
+    #encontre {
+        margin-top: -3vh;
+    }
+
+    #encontre > img {
+        width: 7vw;
+    }
+
+    #encontre > h2 {
+        font-size: 6.5vw;
+    }
+    
+    #encontre > h3 {
+        font-size: 14vw; 
+        margin-top: -2.5vh;
+    }
+
+    #encontre > iframe {
+        margin-top: 2vh;
+        width: 80vw;
+        height: 80vw;
+    }
+
+    footer {
+        padding-top: 6vh;
+        padding-bottom: 4vh;
+    }
+
+    footer > div {
+        margin-bottom: 2vh;
+    }
+
+    #iconemarca > img {
+        height: 3vh;
+    }
+
+    #linhavertical2 {
+        height: 40px;
+        margin: 0 10px;
+    }
+
+    .iconesocialmedia > img {
+        height: 2.5vh;
+    }
+
+    footer > p {
+        font-size: 2vw;
     }
 }
 
@@ -263,16 +312,12 @@ H3 - título cursivo secundário (azul):
         width: 40%;
     }
 
-    #linhavertical {
+    #linhavertical1 {
         border-left: 1px solid #002857;
     }
 
     #contatocontainer > div > h2 {
-        font-size: 2.4em;
-    }
-
-    #contatocontainer > div > img {
-       
+        font-size: 2.2em;
     }
 
     #telefone {
@@ -283,13 +328,60 @@ H3 - título cursivo secundário (azul):
     }
 
     #contatocontainer > div > h3 {
-        font-size: 2.7em;
+        font-size: 2.5em;
         margin-top: -0.7em;
+        margin-bottom: 0.7em;
     }
 
     .dias {
-        text-align: left;
-        font-size: 1.2em;
+        font-size: 1em;
+    }
+
+    #encontre > img {
+        width: 2em;
+    }
+    
+    #encontre > h2 {
+        font-size: 2em;
+    }    
+
+    #encontre > h3 {
+        font-size: 4em; 
+        margin-top: -0.4em;
+    }
+
+    #encontre > iframe {
+        margin-top: 2em;
+        width: 75vw;
+        max-width: 1200px;
+        height: 450px;
+    }
+
+    footer {
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+
+    footer > div {
+        margin-bottom: 2em;
+    }
+
+    #iconemarca > img {
+        height: 2.5em;
+    }
+
+    #linhavertical2 {
+        height: 60px;
+        margin: 0 20px;
+    }
+
+    .iconesocialmedia > img {
+        height: 2em;
+        margin-right: 10px;
+    }
+
+    footer > p {
+        font-size: 0.6em;
     }
 }
 
@@ -492,39 +584,26 @@ hr {
     background-color: #002857;
     color: white;
     text-align: center;
-    margin-top: -3vh;
-}
-
-#encontre > img {
-    width: 7vw;
 }
 
 #encontre > h2 {
     font-family: 'EB Garamond', serif;
     text-transform: uppercase;
-    font-size: 6.5vw;
 }
 
 #encontre > h3 {
     font-family: beinglove;
-    font-size: 14vw;
     font-weight: lighter;
-    margin-top: -2.5vh;
 }
 
 #encontre > iframe {
     border-radius: 20px;
-    margin-top: 2vh;
-    width: 80vw;
-    height: 80vw;
 }
 
 footer {
     text-align: center;
     background-color: #002857;
     color: white;
-    padding-top: 6vh;
-    padding-bottom: 4vh;
 }
 
 footer > div {
@@ -532,29 +611,13 @@ footer > div {
     justify-content: center;
     align-items: center;
     vertical-align: middle;
-    margin-bottom: 2vh;
 }
 
-#iconemarca {
-    margin-right: 4vw;
-    border-right: 1px solid #ffffff80;
-    padding-right: 4vw;
-}
-
-#iconemarca > img {
-    height: 3vh;
-}
-
-.iconesocialmedia {
-    margin-right:  2vw;
-}
-
-.iconesocialmedia > img {
-    height: 2.5vh;
+#linhavertical2 {
+    border-left: 1px solid #ffffff80;
 }
 
 footer > p {
     font-family: 'Lato', sans-serif;
-    font-size: 2vw;
     color: white;
 }
