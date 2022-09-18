@@ -189,6 +189,30 @@ H3 - título cursivo secundário (azul):
     footer > p {
         font-size: 2vw;
     }
+
+    #item {
+        text-align: center;
+        width: 70vw;
+        padding-bottom: 4vh;
+    }
+
+    #item > div > img {
+        width: 20px;
+        transform: rotate(0.75turn);
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    #item > div > h1 {
+        font-size: 1.3em;
+        margin-bottom: 1.5em;
+    }
+
+    #item > div > p {
+        margin: auto;
+        width: 60vw;
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -605,6 +629,8 @@ hr {
 }
 
 footer {
+    width: 100vw;
+    max-width: 100%;
     text-align: center;
     background-color: #002857;
     color: white;
@@ -624,4 +650,57 @@ footer > div {
 footer > p {
     font-family: 'Lato', sans-serif;
     color: white;
+}
+
+#item {
+    position: relative;
+    top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 9px 10px #00000026;
+}
+
+#item > div > h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    color: #6b2a23;
+    text-decoration: underline #6b2a2380 1px;
+    text-underline-offset: 15px;
+}
+
+#item > img {
+    margin-top: 4vh;
+    width: 60vw;
+}
+
+#item > div > p {
+    font-family: 'Lato', sans-serif;
+    color: #6b2a23;
+}
+
+#navegacao {
+    background-color: #002857;
+}
+
+#navegacao > div {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70vw;
+    padding-top: 65px;
+}
+
+#navegacao > div > div > a > img {
+    width: 30vw;
+}
+
+#navegacao > div > div > a > h2 {
+    font-size: 3.6vw;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: 200;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: center;
 }
