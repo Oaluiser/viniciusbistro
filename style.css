@@ -210,15 +210,44 @@ H3 - título cursivo secundário (azul):
         margin-bottom: 5px;
     }
 
+    #item > img {
+        margin-top: 4vh;
+        width: 60vw;
+    }
+
     #item > div > h1 {
         font-size: 1.3em;
         margin-bottom: 1.5em;
+        text-decoration: underline #6b2a2380 1px;
+        text-underline-offset: 15px;
     }
 
     #item > div > p {
         margin: auto;
         width: 60vw;
         font-size: 0.8em;
+    }
+
+    .navegacaocompleto {
+        display: none;
+    }
+
+    #navegacao > h2 {
+        font-size: 4vw;
+        padding: 55px 0 15px 0;
+    }
+
+    #navegacao > div {
+        margin: 25px auto;
+        width: 80vw;
+    }
+
+    #navegacao > div > div > a > img {
+        width: 25vw;
+    }
+    
+    #navegacao > div > div > img {
+        width: 12vw;
     }
 }
 
@@ -422,6 +451,60 @@ H3 - título cursivo secundário (azul):
 
     footer > p {
         font-size: 0.6em;
+    }
+
+    #item {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 75vw;
+        max-width: 1200px;
+        padding: 50px 0px;
+    }
+
+    #item > img {
+        width: 40%;
+    }
+
+    #item > div {
+        width: 40%;
+    }
+
+    #item > div > img {
+        width: 28px;
+        transform: rotate(0.75turn);
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    #item > div > h1 {
+        font-size: 1.7em;
+        margin-bottom: 1.6em;
+        text-decoration: underline #6b2a2380 1px;
+        text-underline-offset: 1em;
+    }
+
+    #item > div > p {
+        margin: auto;
+        font-size: 0.8em;
+    }
+
+    #navegacao > h2 {
+        font-size: 1.2em;
+        padding: 55px 0 25px 0;
+    }
+
+    #navegacao > div {
+        margin: 40px auto;
+        width: 60vw;
+    }
+
+    #navegacao > div > div > a > img {
+        width: 10vw;
+    }
+    
+    #navegacao > div > div > img {
+        width: 6vw;
     }
 }
 
@@ -687,13 +770,6 @@ footer > p {
     font-family: 'EB Garamond', serif;
     font-weight: normal;
     color: #6b2a23;
-    text-decoration: underline #6b2a2380 1px;
-    text-underline-offset: 15px;
-}
-
-#item > img {
-    margin-top: 4vh;
-    width: 60vw;
 }
 
 #item > div > p {
@@ -707,9 +783,7 @@ footer > p {
 
 #navegacao > h2 {
     color: white;
-    padding: 55px 0 15px 0;
     text-align: center;
-    font-size: 4vw;
     text-transform: uppercase;
     font-weight: normal;
 }
@@ -718,14 +792,4 @@ footer > p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px auto;
-    width: 80vw;
-}
-
-#navegacao > div > div > a > img {
-    width: 25vw;
-}
-
-#navegacao > div > div > img {
-    width: 12vw;
 }
