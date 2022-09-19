@@ -76,8 +76,15 @@ H3 - título cursivo secundário (azul):
 
     hr {
         height: 10px;
-        margin: 20px auto 0 auto;
         width: 70vw;
+    }
+
+    .linhamarrom {
+        margin: 20px auto 0 auto;
+    }
+
+    .linhabranca {
+        margin: 0 auto 0 auto;
     }
     
     .grafismo {
@@ -284,8 +291,15 @@ H3 - título cursivo secundário (azul):
 
     hr {
         height: 12px;
-        margin: -10px auto 0 auto;
         width: 75vw;
+    }
+
+    .linhamarrom {
+        margin: -10px auto 0 auto;
+    }
+
+    .linhabranca {
+        margin: 0 auto 0 auto;
     }
 
     .grafismo {
@@ -517,11 +531,19 @@ nav > ul > li > a:hover {
 }
 
 hr {
-    border-top: 2px dashed #6b2a2380;
-    border-bottom: 1px solid #6b2a2380;
     border-left: none;
     border-right: none;
     max-width: 1200px;
+}
+
+.linhamarrom {
+    border-top: 2px dashed #6b2a2380;
+    border-bottom: 1px solid #6b2a2380;
+}
+
+.linhabranca {
+    border-top: 2px dashed #ffffffb3;
+    border-bottom: 1px solid #ffffffb3;
 }
 
 
@@ -683,24 +705,27 @@ footer > p {
     background-color: #002857;
 }
 
+#navegacao > h2 {
+    color: white;
+    padding: 55px 0 15px 0;
+    text-align: center;
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
 #navegacao > div {
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    width: 70vw;
-    padding-top: 65px;
+    align-items: center;
+    margin: 25px auto;
+    width: 80vw;
 }
 
 #navegacao > div > div > a > img {
-    width: 30vw;
+    width: 25vw;
 }
 
-#navegacao > div > div > a > h2 {
-    font-size: 3.6vw;
-    color: white;
-    font-family: 'EB Garamond', serif;
-    font-weight: 200;
-    font-style: italic;
-    text-transform: capitalize;
-    text-align: center;
+#navegacao > div > div > img {
+    width: 12vw;
 }
