@@ -523,9 +523,10 @@ H3 - título cursivo secundário (azul):
 
     #item > div > h1 {
         font-size: 1.7em;
-        margin-bottom: 1.6em;
-        text-decoration: underline #6b2a2380 1px;
-        text-underline-offset: 1em;
+        padding-bottom: 0.7em;
+        margin-bottom: 0.8em;
+        border-bottom: 1px solid #6b2a2380;
+        
     }
 
     #item > div > p {
