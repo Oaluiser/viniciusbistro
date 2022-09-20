@@ -1,8 +1,18 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;0,800;1,500&family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;0,800;1,500&display=swap');
 @font-face {
     font-family: BeingLove;
     src: url(fonts/Being\ Love\ Font\ by\ 7NTypes.otf);
+}
+
+@font-face {
+    font-family: LFTEticaBold;
+    src: url(fonts/TYPETOGETHER\ -\ LFTETICA-BOLD.OTF);
+}
+
+@font-face {
+    font-family: LFTEticaLight;
+    src: url(fonts/TYPETOGETHER\ -\ LFTETICA-LIGHT.OTF);
 }
 
 /*
@@ -109,12 +119,13 @@ H3 - título cursivo secundário (azul):
     }
 
     #quadrocontainer > a > img {
-        width: 33vw;
+        width: 31vw;
+        box-shadow: 2px 2px 5px 2px #00000080;
     }
 
     #quadrocontainer > a > h2 {
         font-size: 3.5vw;
-        margin-top: -1vh;
+        margin-top: 2px;
         margin-bottom: 3vh;
     }
 
@@ -135,7 +146,7 @@ H3 - título cursivo secundário (azul):
     #telefone {
         margin: 2vh 0;
         padding: 1vh;
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
     #contatocontainer > div > h3 {
@@ -145,7 +156,8 @@ H3 - título cursivo secundário (azul):
 
     .dias {
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 3.3vw;
+        margin-top: 5px;
     }
 
     #encontre {
@@ -197,68 +209,7 @@ H3 - título cursivo secundário (azul):
         font-size: 2vw;
     }
 
-    /* Pagina dos Itens */
-
-    #item {
-        text-align: center;
-        width: 70vw;
-        padding-bottom: 4vh;
-    }
-
-    #item > div > img {
-        width: 20px;
-        transform: rotate(0.75turn);
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-
-    #item > img {
-        margin-top: 4vh;
-        width: 60vw;
-    }
-
-    #item > div > h1 {
-        font-size: 1.3em;
-        margin-bottom: 1.5em;
-        text-decoration: underline #6b2a2380 1px;
-        text-underline-offset: 15px;
-    }
-
-    #item > div > p {
-        margin: auto;
-        width: 60vw;
-        font-size: 0.8em;
-    }
-
-    .navegacaocompleto {
-        display: none;
-    }
-
-    #navegacao > h2 {
-        font-size: 4vw;
-        padding: 55px 0 15px 0;
-    }
-
-    #navegacao > div {
-        margin: 25px auto;
-        width: 80vw;
-    }
-
-    #navegacao > div > div > a > img {
-        width: 25vw;
-    }
-    
-    #navegacao > div > div > img {
-        width: 12vw;
-    }
-    
     /* Pagina do Acervo */
-
-    #acervocontainer {
-        width: 70vw;
-        top: -225px;
-        padding: 25px;
-    }
 
     #acervoprincipal {
         padding-bottom: 300px;
@@ -283,14 +234,80 @@ H3 - título cursivo secundário (azul):
         display: none;
     }
 
+    #acervocontainer {
+        width: 70vw;
+        top: -225px;
+        padding: 25px;
+    }
+
     #acervocontainer > a > img {
-        width: 18vw;
+        width: 15vw;
+        margin: 1vw;
+        box-shadow: 2px 2px 5px 2px #00000080;
     }
 
     #footerinvertido {
         margin-top: -225px;
     }
 
+    /* Pagina dos Itens */
+
+    #item {
+        text-align: center;
+        width: 70vw;
+        padding-bottom: 4vh;
+    }
+
+    #item > div > img {
+        width: 20px;
+        transform: rotate(0.75turn);
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    #item > img {
+        margin-top: 4vh;
+        width: 60vw;
+    }
+
+    #item > div > h1 {
+        font-size: 1.3em;
+        
+    }
+
+    #item > div > p {
+        margin: auto;
+        width: 60vw;
+        font-size: 0.8em;
+        padding-top: 0.7em;
+        margin-top: 0.8em;
+        border-top: 1px solid #6b2a2380;
+    }
+
+    .navegacaocompleto {
+        display: none;
+    }
+
+    #navegacao > h2 {
+        font-size: 4vw;
+        padding: 55px 0 15px 0;
+    }
+
+    #navegacao > div {
+        margin: 25px auto;
+        width: 80vw;
+    }
+
+    #navegacao > div > div > a > img {
+        width: 22vw;
+        margin: 3vw;
+        box-shadow: 2px 2px 5px 2px #00000080;
+    }
+    
+    #navegacao > div > div > img {
+        width: 12vw;
+    }
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -326,6 +343,7 @@ H3 - título cursivo secundário (azul):
     #historia {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
         width: 75vw;
         max-width: 1200px;
         top: -5vh;
@@ -349,6 +367,7 @@ H3 - título cursivo secundário (azul):
 
     #historia > div > h1 {
         font-size: 5em;
+        margin-top: -0.5em;
     }
     
     #historia > div > h2 {
@@ -400,14 +419,15 @@ H3 - título cursivo secundário (azul):
         text-align: center;
     }
 
-    #quadrocontainer > a > h2 {
-        font-size: 1em;
-        margin-top: -0.8em;
-        margin-bottom: 4em;
+    #quadrocontainer > a > img {
+        width: 75%;
+        box-shadow: 2px 2px 5px 2px #00000080;
     }
 
-    #quadrocontainer > a > img {
-        width: 90%;
+    #quadrocontainer > a > h2 {
+        font-size: 1em;
+        margin-top: 2px;
+        margin-bottom: 4em;
     }
 
     #contatocontainer {
@@ -495,6 +515,50 @@ H3 - título cursivo secundário (azul):
         font-size: 0.6em;
     }
 
+    /* Pagina do Acervo */
+
+    #acervoprincipal {
+        padding-bottom: 250px;
+    }
+
+    #acervoprincipal > div {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #acervoprincipal > div > img {
+        width: 3em;
+        margin-top: 1.5em;
+    }
+
+    #acervoprincipal > div > h1 {
+        font-size: 5em;
+        margin: 0 0.3em;
+    }
+
+    #acervoprincipal > p {
+        font-size: 1.2em;
+    }
+
+    #acervocontainer {
+        width: 75vw;
+        top: -150px;
+        padding: 50px 50px 35px 50px;
+        max-width: 1200px;
+    }
+
+    #acervocontainer > a > img {
+        width: 9vw;
+        margin: 1vw;
+        box-shadow: 2px 2px 5px 2px #00000080;
+    }
+
+    #footerinvertido {
+        margin-top: -150px;
+    }
+
     /* Pagina dos Itens */
 
     #item {
@@ -526,7 +590,6 @@ H3 - título cursivo secundário (azul):
         padding-bottom: 0.7em;
         margin-bottom: 0.8em;
         border-bottom: 1px solid #6b2a2380;
-        
     }
 
     #item > div > p {
@@ -542,57 +605,18 @@ H3 - título cursivo secundário (azul):
     #navegacao > div {
         margin: 40px auto;
         width: 60vw;
+        max-width: 960px;
     }
 
     #navegacao > div > div > a > img {
         width: 10vw;
+        margin: 1vw;
+        max-width: 160px;
     }
     
     #navegacao > div > div > img {
         width: 6vw;
-    }
-
-    /* Pagina do Acervo */
-
-    #acervoprincipal {
-        padding-bottom: 250px;
-    }
-
-    #acervoprincipal > div {
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #acervoprincipal > div > img {
-        width: 3em;
-        margin-top: 1.5em;
-    }
-
-    #acervoprincipal > div > h1 {
-        font-size: 5em;
-        margin: 0 0.3em;
-    }
-
-    #acervoprincipal > p {
-        font-size: 1.2em;
-    }
-
-    #acervocontainer {
-        width: 75vw;
-        top: -150px;
-        padding: 50px;
-        max-width: 1200px;
-    }
-
-    #acervocontainer > a > img {
-        width: 12vw;
-        max-width: 220px;
-    }
-
-    #footerinvertido {
-        margin-top: -150px;
+        max-width: 96px;
     }
 }
 
@@ -621,8 +645,7 @@ nav > ul {
 }
 
 a {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+    font-family: 'LFTEticaBold', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -661,6 +684,7 @@ nav > ul > li > a:hover {
     font-weight: 800;
     background-color: #002857;
     padding: 4px 35px;
+    letter-spacing: 2px;
 }
 
 #historia {
@@ -696,7 +720,7 @@ nav > ul > li > a:hover {
 }
 
 #historia > div > p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'LFTEticaLight', sans-serif;
     color: #6b2a23;
 }
 
@@ -741,7 +765,7 @@ hr {
 }
 
 #acervo > div > p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'LFTEticaLight', sans-serif;
     text-align: center;
     color: #6b2a23;
 }
@@ -782,7 +806,7 @@ hr {
 #telefone {
     border-top: 1px solid #0028574d;
     border-bottom: 1px solid #0028574d;
-    font-family: 'Lato', sans-serif;
+    font-family: 'LFTEticaLight', sans-serif;
 }
 
 #contatocontainer > div > h3 {
@@ -793,11 +817,11 @@ hr {
 }
 
 .dias {
-    font-family: lato;
+    font-family: 'LFTEticaLight', sans-serif;
 }
 
 #contatocontainer > div > p > b {
-    font-weight: 900;
+    font-family: 'LFTEticaBold', sans-serif;
 }
 
 #encontre {
@@ -844,7 +868,47 @@ footer > div {
 }
 
 footer > p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'LFTEticaLight', sans-serif;
+}
+
+/* Pagina do Acervo */
+
+#acervoprincipal {
+    text-align: center;
+    background-color: #002857;
+}
+
+#acervoprincipal > div > h1 {
+    color: white;
+    font-family: beinglove;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+#acervoprincipal > p {
+    color: white;
+    font-family: 'LFTEticaLight', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#acervocontainer {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 9px 10px #00000026;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footerinvertido {
+    color: #002857;
+}
+
+#footerinvertido > div > #linhavertical2 {
+    border-left: 1px solid #00295780;
 }
 
 /* Pagina dos Itens */
@@ -865,7 +929,7 @@ footer > p {
 }
 
 #item > div > p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'LFTEticaLight', sans-serif;
     color: #6b2a23;
 }
 
@@ -882,47 +946,6 @@ footer > p {
 
 #navegacao > div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-/* Pagina do Acervo */
-
-#acervoprincipal {
-    text-align: center;
-    background-color: #002857;
-}
-
-#acervoprincipal > div > h1 {
-    color: white;
-    font-family: beinglove;
-    text-transform: lowercase;
-    font-weight: lighter;
-}
-
-#acervoprincipal > p {
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    width: 50%;
-    margin: 0 auto;
-}
-
-#acervocontainer {
-    position: relative;
-    background-color: white;
-    border-radius: 20px;
-    margin: auto;
-    box-shadow: 0px 9px 10px #00000026;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-#footerinvertido {
-    color: #002857;
-}
-
-#footerinvertido > div > #linhavertical2 {
-    border-left: 1px solid #00295780;
 }
