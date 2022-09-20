@@ -1,5 +1,5 @@
 # viniciusbistro
 
-Site para o restaurante Vinicius Bistro.
+Site para o restaurante Vinícius Bistro.
 
 Todos os direitos reservados.
