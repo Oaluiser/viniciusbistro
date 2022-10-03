@@ -288,13 +288,23 @@ H3 - título cursivo secundário (azul):
         display: none;
     }
 
-    #navegacao > h2 {
-        font-size: 4vw;
-        padding: 55px 0 15px 0;
+    #navegacao > #veja {
+        font-size: 2em;
+        padding-top: 85px;
+        font-weight: bold;
+    }
+
+    #navegacao > #outrositens {
+        font-family: beinglove;
+        text-transform: lowercase;
+        font-size: 2.5em;
+        margin-top: -20px;
+        color: #867369;
     }
 
     #navegacao > div {
-        margin: 25px auto;
+        margin: auto;
+        padding-top: 10px;
         width: 80vw;
     }
 
@@ -597,13 +607,23 @@ H3 - título cursivo secundário (azul):
         font-size: 0.8em;
     }
 
-    #navegacao > h2 {
-        font-size: 1.2em;
-        padding: 55px 0 25px 0;
+    #navegacao > #veja {
+        font-size: 2em;
+        padding-top: 85px;
+        font-weight: bold;
+    }
+
+    #navegacao > #outrositens {
+        font-family: beinglove;
+        text-transform: lowercase;
+        font-size: 2.5em;
+        margin-top: -20px;
+        color: #867369;
     }
 
     #navegacao > div {
-        margin: 40px auto;
+        margin: auto;
+        padding-top: 30px;
         width: 60vw;
         max-width: 960px;
     }
@@ -807,6 +827,11 @@ hr {
     border-top: 1px solid #0028574d;
     border-bottom: 1px solid #0028574d;
     font-family: 'LFTEticaLight', sans-serif;
+}
+
+#contato > div > div > img {
+    width: 20vw;
+    max-width: 250px;
 }
 
 #contatocontainer > div > h3 {
