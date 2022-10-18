@@ -100,7 +100,8 @@ H3 - título cursivo secundário (azul):
     #historia > div > p {
         margin: auto;
         width: 50vw;
-        font-size: 4vw;
+        font-size: 3vw;
+        margin-bottom: 3vw;
     }
 
     hr {
@@ -126,7 +127,7 @@ H3 - título cursivo secundário (azul):
     }
 
     #acervo > div > p {
-        font-size: 4vw;
+        font-size: 3vw;
         margin-bottom: 2vh;
         width: 65vw;
     }
@@ -143,7 +144,7 @@ H3 - título cursivo secundário (azul):
     }
 
     #quadrocontainer > a > h2 {
-        font-size: 3.5vw;
+        font-size: 2.8vw;
         margin-top: 2px;
         margin-bottom: 3vh;
     }
@@ -439,6 +440,7 @@ H3 - título cursivo secundário (azul):
 
     #historia > div > p {
         font-size: 0.8em;
+        margin-bottom: 10px;
     }
 
     hr {
@@ -467,7 +469,8 @@ H3 - título cursivo secundário (azul):
     #acervo > div > p {
         font-size: 1em;
         margin-bottom: 30px;
-        width: 40vw;
+        width: 60vw;
+        max-width: 1000px;
     }
 
     #quadrocontainer {
@@ -487,7 +490,7 @@ H3 - título cursivo secundário (azul):
     }
 
     #quadrocontainer > a > h2 {
-        font-size: 1em;
+        font-size: 0.8em;
         margin-top: 2px;
         margin-bottom: 4em;
     }
