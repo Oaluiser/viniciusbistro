@@ -353,7 +353,7 @@ H3 - título cursivo secundário (azul):
 
     #cardapio > div > img {
         width: 10vw;
-        margin-top: 3vw;
+        margin-top: -5vw;
     }
 
     #cardapio > div > h1 {
