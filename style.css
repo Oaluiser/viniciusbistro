@@ -353,7 +353,7 @@ H3 - título cursivo secundário (azul):
 
     #cardapio > div > img {
         width: 10vw;
-        margin-top: -5vw;
+        margin-top: -3vw;
     }
 
     #cardapio > div > h1 {
@@ -1114,6 +1114,41 @@ footer > p {
     width: 100%;
     padding-bottom: 3vw;
     margin-bottom: 2vw;
+}
+
+#cardapiocomsubtitulo > h2 {
+    color: #6b2a23;
+    font-size: 5.5vw;
+    text-align: center;
+    width: 100%;
+}
+
+#cardapiocomsubtitulo > p {
+    color: #6b2a23;
+    font-size: 4vw;
+    text-align: center;
+    width: 100%;
+    text-transform: lowercase;
+    border-bottom: 1px solid #6c2a2380;
+    padding-bottom: 3vw;
+    margin-bottom: 2vw;
+}
+
+#cardapiocontainer > h3 {
+    color: #6b2a23;
+    font-size: 4vw;
+    text-align: center;
+    border-bottom: 1px solid #6c2a2380;
+    width: 100%;
+    padding-bottom: 3vw;
+    margin-bottom: 2vw;
+    margin-top: 3vw;
+}
+
+#cardapiocentralizado {
+    text-align: center;
+    padding-bottom: 2vw;
+    font-size: 4vw;
 }
 
 #cardapioitem {
