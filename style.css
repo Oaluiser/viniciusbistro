@@ -371,6 +371,42 @@ H3 - título cursivo secundário (azul):
         top: -225px;
         padding: 20px;
     }
+
+    #cardapioitem {
+        width: 100%;
+        font-size: 4vw;
+        padding: 2vw 1vw;
+    }
+
+    #cardapiocontainer > h2 {
+        font-size: 5.5vw;
+        padding-bottom: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    #cardapiocomsubtitulo > h2 {
+        font-size: 5.5vw;
+    }
+
+    #cardapiocomsubtitulo > p {
+        font-size: 4vw;
+        padding-bottom: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    #cardapiocontainer > h3 {
+        font-size: 4vw;
+        padding-bottom: 3vw;
+        margin-bottom: 2vw;
+        margin-top: 3vw;
+    }
+
+    #cardapiocentralizado {
+        text-align: center;
+        padding-bottom: 2vw;
+        font-size: 4vw;
+        font-family: 'LFTEticaRegular', sans-serif;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -709,7 +745,7 @@ H3 - título cursivo secundário (azul):
 
     #cardapio > div > img {
         width: 3em;
-        margin-top: 1.5em;
+        margin-top: -1em;
     }
 
     #cardapio > div > h1 {
@@ -722,10 +758,61 @@ H3 - título cursivo secundário (azul):
     }
 
     #cardapiocontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
         width: 75vw;
-        top: -150px;
+        top: -200px;
         padding: 50px 50px 35px 50px;
         max-width: 1200px;
+    }
+
+    #cardapiocontainer > h2 {
+        font-size: 1.6em;
+        padding-bottom: 0.5em;
+        margin-bottom: 0.3em;
+    }
+
+    #cardapioitem {
+        width: 45%;
+        font-size: 1em;
+        padding: 0.7em 0.2em;
+    }
+
+    #cardapiocomsubtitulo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #cardapiocomsubtitulo > h2 {
+        font-size: 1.6em;
+    }
+
+    #cardapiocomsubtitulo > p {
+        font-size: 1em;
+        padding-bottom: 0.5em;
+        margin-bottom: 0.3em;
+    }
+
+    #cardapiocontainer > h3 {
+        font-size: 1.2em;
+        padding-bottom: 0.5em;
+        margin-bottom: 0.8em;
+        margin-top: 0.2em;
+    }
+
+    #cardapioitem.semlinha {
+        border-bottom: none;
+    }
+
+    #cardapiocentralizado {
+        font-size: 1.2em;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 1em;
+        font-family: 'LFTEticaRegular', sans-serif;
     }
 }
 
@@ -733,12 +820,19 @@ H3 - título cursivo secundário (azul):
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background-image: url(img/imgtextura.png);
     position: absolute;
     max-width: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 nav > ul {
@@ -1108,62 +1202,44 @@ footer > p {
 
 #cardapiocontainer > h2 {
     color: #6b2a23;
-    font-size: 5.5vw;
     text-align: center;
     border-bottom: 1px solid #6c2a2380;
     width: 100%;
-    padding-bottom: 3vw;
-    margin-bottom: 2vw;
 }
 
 #cardapiocomsubtitulo > h2 {
     color: #6b2a23;
-    font-size: 5.5vw;
     text-align: center;
     width: 100%;
 }
 
 #cardapiocomsubtitulo > p {
     color: #6b2a23;
-    font-size: 4vw;
     text-align: center;
     width: 100%;
     text-transform: lowercase;
     border-bottom: 1px solid #6c2a2380;
-    padding-bottom: 3vw;
-    margin-bottom: 2vw;
 }
 
 #cardapiocontainer > h3 {
     color: #6b2a23;
-    font-size: 4vw;
     text-align: center;
     border-bottom: 1px solid #6c2a2380;
     width: 100%;
-    padding-bottom: 3vw;
-    margin-bottom: 2vw;
-    margin-top: 3vw;
 }
 
-#cardapiocentralizado {
-    text-align: center;
-    padding-bottom: 2vw;
-    font-size: 4vw;
-}
 
 #cardapioitem {
     font-family: 'LFTEticaRegular', sans-serif;
-    width: 100%;
-    font-size: 4vw;
     border-bottom: 1px solid #00285740;
     display: flex;
     justify-content: space-between;
-    padding: 2vw 1vw;
 }
 
 #cardapioitem:last-child {
     border-bottom: none;
 }
+
 
 #cardapioitem > div {
     width: 75%;
