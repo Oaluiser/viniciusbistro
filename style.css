@@ -292,16 +292,17 @@ H3 - título cursivo secundário (azul):
 
     #item > div > h1 {
         font-size: 1.3em;
-        
+        width: 60vw;
+        margin: auto;
+        padding-bottom: 0.7em;
+        margin-bottom: 0.8em;
+        border-bottom: 1px solid #6b2a2380;
     }
 
     #item > div > p {
         margin: auto;
         width: 60vw;
         font-size: 0.8em;
-        padding-top: 0.7em;
-        margin-top: 0.8em;
-        border-top: 1px solid #6b2a2380;
     }
 
     .navegacaocompleto {
@@ -652,6 +653,7 @@ H3 - título cursivo secundário (azul):
 
     #acervocontainer > a > img {
         width: 9vw;
+        max-width: 160px;
         margin: 1vw;
         box-shadow: 2px 2px 5px 2px #00000080;
     }
@@ -1139,6 +1141,7 @@ footer > p {
 #item > div > p {
     font-family: 'LFTEticaLight', sans-serif;
     color: #6b2a23;
+    margin-bottom: 10px;
 }
 
 #navegacao {
