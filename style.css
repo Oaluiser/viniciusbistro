@@ -1,38 +1,38 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;0,800;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;0,800;1,500&display=swap");
 @font-face {
-    font-family: BeingLove;
-    src: url(fonts/Being\ Love\ Font\ by\ 7NTypes.otf);
+  font-family: BeingLove;
+  src: url(fonts/Being\ Love\ Font\ by\ 7NTypes.otf);
 }
 
 @font-face {
-    font-family: LFTEticaBold;
-    src: url(fonts/TYPETOGETHER\ -\ LFTETICA-BOLD.OTF);
+  font-family: LFTEticaBold;
+  src: url(fonts/TYPETOGETHER\ -\ LFTETICA-BOLD.OTF);
 }
 
 @font-face {
-    font-family: LFTEticaLight;
-    src: url(fonts/TYPETOGETHER\ -\ LFTETICA-LIGHT.OTF);
+  font-family: LFTEticaLight;
+  src: url(fonts/TYPETOGETHER\ -\ LFTETICA-LIGHT.OTF);
 }
 
 @font-face {
-    font-family: LFTEticaExtra;
-    src: url(fonts/TYPETOGETHER\ -\ LFTETICA-EXTRABOLDITALIC.OTF);
+  font-family: LFTEticaExtra;
+  src: url(fonts/TYPETOGETHER\ -\ LFTETICA-EXTRABOLDITALIC.OTF);
 }
 
 @font-face {
-    font-family: LFTEticaItalic;
-    src: url(fonts/TYPETOGETHER\ -\ LFTETICA-ITALIC.OTF);
+  font-family: LFTEticaItalic;
+  src: url(fonts/TYPETOGETHER\ -\ LFTETICA-ITALIC.OTF);
 }
 
 @font-face {
-    font-family: LFTEticaLightItalic;
-    src: url(fonts/TYPETOGETHER\ -\ LFTETICA-LIGHTITALIC.OTF);
+  font-family: LFTEticaLightItalic;
+  src: url(fonts/TYPETOGETHER\ -\ LFTETICA-LIGHTITALIC.OTF);
 }
 
 @font-face {
-    font-family: LFTEticaRegular;
-    src: url(fonts/TYPETOGETHER\ -\ LFTETICA-REGULAR.OTF);
+  font-family: LFTEticaRegular;
+  src: url(fonts/TYPETOGETHER\ -\ LFTETICA-REGULAR.OTF);
 }
 /*
 BOTÕES E MENUS (azul escuro):
@@ -49,1211 +49,1258 @@ H3 - título cursivo secundário (azul):
 */
 
 @media screen and (max-width: 767px) {
-    #inicial {
-        background-image: url(img/imgprincipal.png);
-    }
-
-    #menucompleto {
-        display: none;
-    }
-
-    a {
-        font-size: 4vw;
-    }
-
-    #inicial {
-        background-position: center bottom;
-        padding-top: 13vh;
-        min-height: 600px;
-    }
-
-    #inicial > img {
-        margin: auto;
-        width: 60vw;
-        margin-bottom: 15vw;
-    }
-    
-    .botao {
-        font-size: 3.5vw;
-        border-radius: 7px;
-    }
-
-    #historia {
-        text-align: center;
-        width: 70vw;
-        top: -2vh;
-        padding-bottom: 4vh;
-    }
-
-    #historia > img {
-        display: none;
-     }
-
-    #historia > div > h1 {
-        font-size: 20vw;
-    }
-
-    #historia > div > h2 {
-        font-size: 8vw;
-    }
-
-    #historia > div > p {
-        margin: auto;
-        width: 50vw;
-        font-size: 3vw;
-        margin-bottom: 3vw;
-    }
-
-    hr {
-        height: 10px;
-        width: 70vw;
-    }
-
-    .linhamarrom {
-        margin: 20px auto 0 auto;
-    }
-
-    .linhabranca {
-        margin: 0 auto 0 auto;
-    }
-    
-    .grafismo {
-        width: 4vw;
-        margin: 0 5vw;
-    }
-
-    #acervo > div > h1 {
-        font-size: 20vw;
-    }
-
-    #acervo > div > p {
-        font-size: 3vw;
-        margin-bottom: 2vh;
-        width: 65vw;
-    }
-
-    #quadrocontainer {
-        flex-wrap: wrap;
-        width: 70vw;
-        margin: 6vh auto 8vh auto;
-    }
-
-    #quadrocontainer > a > img {
-        width: 31vw;
-        box-shadow: 2px 2px 5px 2px #00000080;
-    }
-
-    #quadrocontainer > a > h2 {
-        font-size: 2.8vw;
-        margin-top: 2px;
-        margin-bottom: 3vh;
-    }
-
-    #contato > div > div > img {
-        display: none;
-    }
-
-    #contatocontainer {
-        width: 80vw;
-        top: -7vh;
-        padding: 4vh 16vw;
-    }
-
-    #contatocontainer > div > h2 {
-        font-size: 6.5vw;
-    }
-
-    #telefone {
-        margin: 2vh 0;
-        padding: 1vh;
-        font-size: 4.5vw;
-    }
-
-    #contatocontainer > div > h3 {
-        font-size: 7.3vw;
-        margin-top: -2vh;
-    }
-
-    .dias {
-        text-align: center;
-        font-size: 3.3vw;
-        margin-top: 5px;
-    }
-
-    #encontre {
-        margin-top: -3vh;
-    }
-
-    #encontre > img {
-        width: 7vw;
-    }
-
-    #encontre > h2 {
-        font-size: 6.5vw;
-    }
-    
-    #encontre > h3 {
-        font-size: 14vw; 
-        margin-top: -2.5vh;
-    }
-
-    #encontre > iframe {
-        margin-top: 2vh;
-        width: 80vw;
-        height: 80vw;
-    }
-
-    footer {
-        padding-top: 6vh;
-        padding-bottom: 4vh;
-    }
-
-    footer > div {
-        margin-bottom: 2vh;
-    }
-
-    #iconemarca > img {
-        height: 2em;
-    }
-
-    #linhavertical2 {
-        height: 40px;
-        margin: 0 10px;
-    }
-
-    .iconesocialmedia > img {
-        height: 1.5em;
-    }
-
-    footer > p {
-        font-size: 2vw;
-    }
-
-    /* Pagina do Acervo */
-
-    #acervoprincipal {
-        padding-bottom: 300px;
-    }
-
-    #acervoprincipal > div > img {
-        margin-top: 10vh;
-        width: 10vw;
-        transform: rotate(0.25turn);
-    }
-
-    #acervoprincipal > div > h1 {
-        margin-top: -0.6em;
-        font-size: 20vw;
-    }
-
-    #acervoprincipal > p {
-        font-size: 0.9em;
-    }
-
-    #grafismocompleto {
-        display: none;
-    }
-
-    #acervocontainer {
-        width: 70vw;
-        top: -225px;
-        padding: 25px;
-    }
-
-    #acervocontainer > a > img {
-        width: 15vw;
-        margin: 1vw;
-        box-shadow: 2px 2px 5px 2px #00000080;
-    }
-
-    #footerinvertido {
-        margin-top: -225px;
-    }
-
-    /* Pagina dos Itens */
-
-    #item {
-        text-align: center;
-        width: 70vw;
-        padding-bottom: 4vh;
-    }
-
-    #item > div > img {
-        width: 20px;
-        transform: rotate(0.75turn);
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-
-    #item > img {
-        margin-top: 4vh;
-        width: 60vw;
-    }
-
-    #item > div > h1 {
-        font-size: 1.3em;
-        width: 60vw;
-        margin: auto;
-        padding-bottom: 0.7em;
-        margin-bottom: 0.8em;
-        border-bottom: 1px solid #6b2a2380;
-    }
-
-    #item > div > p {
-        margin: auto;
-        width: 60vw;
-        font-size: 0.8em;
-    }
-
-    .navegacaocompleto {
-        display: none;
-    }
-
-    #navegacao > #veja {
-        font-size: 2em;
-        padding-top: 85px;
-        font-weight: bold;
-    }
-
-    #navegacao > #outrositens {
-        font-family: beinglove;
-        text-transform: lowercase;
-        font-size: 2.5em;
-        margin-top: -20px;
-        color: #867369;
-    }
-
-    #navegacao > div {
-        margin: auto;
-        padding-top: 10px;
-        width: 80vw;
-    }
-
-    #navegacao > div > div > a > img {
-        width: 22vw;
-        margin: 3vw;
-        box-shadow: 2px 2px 5px 2px #00000080;
-    }
-    
-    #navegacao > div > div > img {
-        width: 12vw;
-    }
-
-    /* Cardápio */
-
-    #cardapio {
-        padding-bottom: 300px;
-    }
-
-    #cardapio > div {
-        padding-top: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #cardapio > div > img {
-        width: 10vw;
-        margin-top: -3vw;
-    }
-
-    #cardapio > div > h1 {
-        font-size: 15vw;
-        margin: 0 3vw;
-    }
-
-    #cardapio > p {
-        font-size: 3.4vw;
-    }
-
-    #cardapiocontainer {
-        position: relative;
-        width: 70vw;
-        top: -225px;
-        padding: 20px;
-    }
-
-    #cardapioitem {
-        width: 100%;
-        font-size: 4vw;
-        padding: 2vw 1vw;
-    }
-
-    #cardapiocontainer > h2 {
-        font-size: 5.5vw;
-        padding-bottom: 3vw;
-        margin-bottom: 2vw;
-    }
-
-    #cardapiocomsubtitulo > h2 {
-        font-size: 5.5vw;
-    }
-
-    #cardapiocomsubtitulo > p {
-        font-size: 4vw;
-        padding-bottom: 3vw;
-        margin-bottom: 2vw;
-    }
-
-    #cardapiocontainer > h3 {
-        font-size: 4vw;
-        padding-bottom: 3vw;
-        margin-bottom: 2vw;
-        margin-top: 3vw;
-    }
-
-    #cardapiocentralizado {
-        text-align: center;
-        padding-bottom: 2vw;
-        font-size: 4vw;
-        font-family: 'LFTEticaRegular', sans-serif;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    #inicial {
-        background-image: url(img/imgprincipal2.png);
-    }
-
-    a {
-        font-size: 1.2em;
-    }
-
-    #menumobile {
-        display: none;
-    }
-
-    #inicial {
-        background-position: center center;
-        padding-top: 8vh;
-        min-height: 600px;
-    }
-
-    #inicial > img {
-        margin: auto;
-        width: 25vw;
-        margin-bottom: 3.5vh;
-    }
-
-    .botao {
-        font-size: 1em;
-        border-radius: 10px;
-    }
-
-    #historia {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 75vw;
-        max-width: 1200px;
-        top: -5vh;
-        padding: 50px 0px;
-    }
-
-    #historia > img {
-        align-self: center;
-        width: 40%;
-    }
-
-    #historia > div {
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-    }
-
-    #historia > div > img {
-        display: none;
-    }
-
-    #historia > div > h1 {
-        font-size: 5em;
-        margin-top: -0.5em;
-    }
-    
-    #historia > div > h2 {
-        font-size: 2em;
-        margin-bottom: 1em;
-    }
-
-    #historia > div > p {
-        font-size: 0.8em;
-        margin-bottom: 10px;
-    }
-
-    hr {
-        height: 12px;
-        width: 75vw;
-    }
-
-    .linhamarrom {
-        margin: -10px auto 0 auto;
-    }
-
-    .linhabranca {
-        margin: 0 auto 0 auto;
-    }
-
-    .grafismo {
-        align-self: center;
-        width: 3em;
-        margin: 0 1.2em;
-    }
-
-    #acervo > div > h1 {
-        font-size: 5.5em;
-    }
-
-    #acervo > div > p {
-        font-size: 1em;
-        margin-bottom: 30px;
-        width: 60vw;
-        max-width: 1000px;
-    }
-
-    #quadrocontainer {
-        width: 75vw;
-        max-width: 1200px;
-        margin: 40px auto 50px auto;
-    }
-
-    #quadrocontainer > a {
-        width: 25%;
-        text-align: center;
-    }
-
-    #quadrocontainer > a > img {
-        width: 75%;
-        box-shadow: 2px 2px 5px 2px #00000080;
-    }
-
-    #quadrocontainer > a > h2 {
-        font-size: 0.8em;
-        margin-top: 2px;
-        margin-bottom: 4em;
-    }
-
-    #contatocontainer {
-        display: flex;
-        justify-content: space-evenly;
-        width: 75vw;
-        max-width: 1200px;
-        top: -4em;
-        padding: 90px 0px;
-    }
-
-    .contato {
-        width: 40%;
-    }
-
-    #linhavertical1 {
-        border-left: 1px solid #002857;
-    }
-
-    #contatocontainer > div > h2 {
-        font-size: 2.2em;
-    }
-
-    #telefone {
-        margin: 0.8em auto;
-        padding: 0.5em;
-        font-size: 1.1em;
-        width: 160px;
-    }
-
-    #contatocontainer > div > h3 {
-        font-size: 2.5em;
-        margin-top: -0.7em;
-        margin-bottom: 0.7em;
-    }
-
-    .dias {
-        font-size: 1em;
-    }
-
-    #encontre > img {
-        width: 2em;
-    }
-    
-    #encontre > h2 {
-        font-size: 2em;
-    }    
-
-    #encontre > h3 {
-        font-size: 4em; 
-        margin-top: -0.4em;
-    }
-
-    #encontre > iframe {
-        margin-top: 2em;
-        width: 75vw;
-        max-width: 1200px;
-        height: 450px;
-    }
-
-    footer {
-        padding-top: 3em;
-        padding-bottom: 2em;
-    }
-
-    footer > div {
-        margin-bottom: 2em;
-    }
-
-    #iconemarca > img {
-        height: 2.5em;
-    }
-
-    #linhavertical2 {
-        height: 60px;
-        margin: 0 20px;
-    }
-
-    .iconesocialmedia > img {
-        height: 2em;
-        margin-right: 10px;
-    }
-
-    footer > p {
-        font-size: 0.6em;
-    }
-
-    /* Pagina do Acervo */
-
-    #acervoprincipal {
-        padding-bottom: 250px;
-    }
-
-    #acervoprincipal > div {
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #acervoprincipal > div > img {
-        width: 3em;
-        margin-top: 1.5em;
-    }
-
-    #acervoprincipal > div > h1 {
-        font-size: 5em;
-        margin: 0 0.3em;
-    }
-
-    #acervoprincipal > p {
-        font-size: 1.2em;
-    }
-
-    #acervocontainer {
-        width: 75vw;
-        top: -150px;
-        padding: 50px 50px 35px 50px;
-        max-width: 1200px;
-    }
-
-    #acervocontainer > a > img {
-        width: 9vw;
-        max-width: 160px;
-        margin: 1vw;
-        box-shadow: 2px 2px 5px 2px #00000080;
-    }
-
-    #footerinvertido {
-        margin-top: -150px;
-    }
-
-    /* Pagina dos Itens */
-
-    #item {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 75vw;
-        max-width: 1200px;
-        padding: 50px 0px;
-    }
-
-    #item > img {
-        width: 40%;
-    }
-
-    #item > div {
-        width: 40%;
-    }
-
-    #item > div > img {
-        width: 28px;
-        transform: rotate(0.75turn);
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-
-    #item > div > h1 {
-        font-size: 1.7em;
-        padding-bottom: 0.7em;
-        margin-bottom: 0.8em;
-        border-bottom: 1px solid #6b2a2380;
-    }
-
-    #item > div > p {
-        margin: auto;
-        font-size: 0.8em;
-    }
-
-    #navegacao > #veja {
-        font-size: 2em;
-        padding-top: 85px;
-        font-weight: bold;
-    }
-
-    #navegacao > #outrositens {
-        font-family: beinglove;
-        text-transform: lowercase;
-        font-size: 2.5em;
-        margin-top: -20px;
-        color: #867369;
-    }
-
-    #navegacao > div {
-        margin: auto;
-        padding-top: 30px;
-        width: 60vw;
-        max-width: 960px;
-    }
-
-    #navegacao > div > div > a > img {
-        width: 10vw;
-        margin: 1vw;
-        max-width: 160px;
-    }
-    
-    #navegacao > div > div > img {
-        width: 6vw;
-        max-width: 96px;
-    }
-
-    /* Cardápio */
-
-    #cardapio {
-        padding-bottom: 250px;
-    }
-
-    #cardapio > div {
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #cardapio > div > img {
-        width: 3em;
-        margin-top: -1em;
-    }
-
-    #cardapio > div > h1 {
-        font-size: 5em;
-        margin: 0 0.3em;
-    }
-
-    #cardapio > p {
-        font-size: 1.2em;
-    }
-
-    #cardapiocontainer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        position: relative;
-        width: 75vw;
-        top: -200px;
-        padding: 50px 50px 35px 50px;
-        max-width: 1200px;
-    }
-
-    #cardapiocontainer > h2 {
-        font-size: 1.6em;
-        padding-bottom: 0.5em;
-        margin-bottom: 0.3em;
-    }
-
-    #cardapioitem {
-        width: 45%;
-        font-size: 1em;
-        padding: 0.7em 0.2em;
-    }
-
-    #cardapiocomsubtitulo {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #cardapiocomsubtitulo > h2 {
-        font-size: 1.6em;
-    }
-
-    #cardapiocomsubtitulo > p {
-        font-size: 1em;
-        padding-bottom: 0.5em;
-        margin-bottom: 0.3em;
-    }
-
-    #cardapiocontainer > h3 {
-        font-size: 1.2em;
-        padding-bottom: 0.5em;
-        margin-bottom: 0.8em;
-        margin-top: 0.2em;
-    }
-
-    #cardapioitem.semlinha {
-        border-bottom: none;
-    }
-
-    #cardapiocentralizado {
-        font-size: 1.2em;
-        text-align: center;
-        width: 100%;
-        padding-bottom: 1em;
-        font-family: 'LFTEticaRegular', sans-serif;
-    }
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-body {
-    background-image: url(img/imgtextura.png);
-    position: absolute;
-    max-width: 100%;
-}
-
-nav {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
-
-nav > ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 5vh;
-    min-height: 35px;
-    background-color: white;
-}
-
-a {
-    font-family: 'LFTEticaBold', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-nav > ul > li > a {
-    color: #002857;
-}
-
-nav > ul > li > a:hover {
-    color: #0092e6;
-}
-
-#iconehome {
-    height: 2.5vh;
-    min-height: 20px;
-    margin-top: 2px;
-}
-
-
-#inicial {
-    height: 97vh;
-    width: 100vw;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-
-}
-
-#inicial > img {
-    display: block;
-}
-
-.botao {
-    color: white;
-    font-weight: 800;
-    background-color: #002857;
-    padding: 4px 35px;
-    letter-spacing: 2px;
-}
-
-#historia {
-    position: relative;
-    background-color: white;
-    border-radius: 20px;
+  #inicial {
+    background-image: url(img/imgprincipal.png);
+  }
+
+  #menucompleto {
+    display: none;
+  }
+
+  a {
+    font-size: 4vw;
+  }
+
+  #inicial {
+    background-position: center bottom;
+    padding-top: 13vh;
+    min-height: 600px;
+  }
+
+  #inicial > img {
     margin: auto;
-    box-shadow: 0px 9px 10px #00000026;
-}
+    width: 60vw;
+    margin-bottom: 15vw;
+  }
 
-#historia > div > h1 {
-    font-family: beinglove;
-    font-weight: normal;
-    text-transform: lowercase;
-    color: #6b2a23;
-    text-decoration: underline #6b2a2380 1px;
-    text-underline-offset: 1vh;
-}
+  .botao {
+    font-size: 3.5vw;
+    border-radius: 7px;
+  }
 
-#historia > div > h2 {
-    font-family: 'EB Garamond', serif;
-    text-transform: uppercase;
-    color: #867369;
-    text-decoration: underline #6b2a2380 1px;
-    text-underline-offset: 1.5vh;
-    margin-top: -2.5vh;
-}
+  #historia {
+    text-align: center;
+    width: 70vw;
+    top: -2vh;
+    padding-bottom: 4vh;
+  }
 
-#historia > div > img {
-    margin-top: 4vh;
-    margin-bottom: 2vh;
+  #historia > img {
+    display: none;
+  }
+
+  #historia > div > h1 {
+    font-size: 20vw;
+  }
+
+  #historia > div > h2 {
+    font-size: 8vw;
+  }
+
+  #historia > div > p {
+    margin: auto;
     width: 50vw;
-}
+    font-size: 3vw;
+    margin-bottom: 3vw;
+  }
 
-#historia > div > p {
-    font-family: 'LFTEticaLight', sans-serif;
-    color: #6b2a23;
-}
+  hr {
+    height: 10px;
+    width: 70vw;
+  }
 
-hr {
-    border-left: none;
-    border-right: none;
-    max-width: 1200px;
-}
+  .linhamarrom {
+    margin: 20px auto 0 auto;
+  }
 
-.linhamarrom {
-    border-top: 2px dashed #6b2a2380;
-    border-bottom: 1px solid #6b2a2380;
-}
+  .linhabranca {
+    margin: 0 auto 0 auto;
+  }
 
-.linhabranca {
-    border-top: 2px dashed #ffffffb3;
-    border-bottom: 1px solid #ffffffb3;
-}
+  .grafismo {
+    width: 4vw;
+    margin: 0 5vw;
+  }
 
+  #acervo > div > h1 {
+    font-size: 20vw;
+  }
 
-#tituloacervo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  #acervo > div > p {
+    font-size: 3vw;
+    margin-bottom: 2vh;
+    width: 65vw;
+  }
 
-.grafismo {
-    align-self: center;
-}
+  #quadrocontainer {
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: 6vh auto 8vh auto;
+  }
 
-#acervo > div > h1 {
-    font-family: beinglove;
-    font-weight: normal;
-    text-transform: lowercase;
-    color: #6b2a23;
-}
+  #quadrocontainer > a > img {
+    width: 31vw;
+    box-shadow: 2px 2px 5px 2px #00000080;
+  }
 
-#descricaoacervo {
+  #quadrocontainer > a > h2 {
+    font-size: 2.8vw;
+    margin-top: 2px;
+    margin-bottom: 3vh;
+  }
+
+  #contato > div > div > img,
+  #video > div > div > img {
+    display: none;
+  }
+
+  #contatocontainer,
+  #videocontainer {
+    width: 80vw;
+    top: -7vh;
+    padding: 4vh 16vw;
+  }
+
+  #videocontainer {
+    padding: 4vh;
+  }
+
+  #videocontainer > div {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    gap: 2vh;
+  }
 
-#acervo > div > p {
-    font-family: 'LFTEticaLight', sans-serif;
+  #linhavertical1 {
+    display: none;
+  }
+
+  #videocontainer iframe {
+    width: 100%;
+  }
+
+  #contatocontainer > div > h2 {
+    font-size: 6.5vw;
+  }
+
+  #telefone {
+    margin: 2vh 0;
+    padding: 1vh;
+    font-size: 4.5vw;
+  }
+
+  #contatocontainer > div > h3 {
+    font-size: 7.3vw;
+    margin-top: -2vh;
+  }
+
+  .dias {
     text-align: center;
-    color: #6b2a23;
-}
+    font-size: 3.3vw;
+    margin-top: 5px;
+  }
 
-#quadrocontainer {
-    display: flex;
-    justify-content: space-between;
-}
+  #encontre {
+    margin-top: -3vh;
+  }
 
-#quadrocontainer > a > h2 {
-    font-family: 'EB Garamond', serif;
-    font-weight: 200;
-    font-style: italic;
-    text-transform: none;
+  #encontre > img {
+    width: 7vw;
+  }
+
+  #encontre > h2 {
+    font-size: 6.5vw;
+  }
+
+  #encontre > h3 {
+    font-size: 14vw;
+    margin-top: -2.5vh;
+  }
+
+  #encontre > iframe {
+    margin-top: 2vh;
+    width: 80vw;
+    height: 80vw;
+  }
+
+  footer {
+    padding-top: 6vh;
+    padding-bottom: 4vh;
+  }
+
+  footer > div {
+    margin-bottom: 2vh;
+  }
+
+  #iconemarca > img {
+    height: 2em;
+  }
+
+  #linhavertical2 {
+    height: 40px;
+    margin: 0 10px;
+  }
+
+  .iconesocialmedia > img {
+    height: 1.5em;
+  }
+
+  footer > p {
+    font-size: 2vw;
+  }
+
+  /* Pagina do Acervo */
+
+  #acervoprincipal {
+    padding-bottom: 300px;
+  }
+
+  #acervoprincipal > div > img {
+    margin-top: 10vh;
+    width: 10vw;
+    transform: rotate(0.25turn);
+  }
+
+  #acervoprincipal > div > h1 {
+    margin-top: -0.6em;
+    font-size: 20vw;
+  }
+
+  #acervoprincipal > p {
+    font-size: 0.9em;
+  }
+
+  #grafismocompleto {
+    display: none;
+  }
+
+  #acervocontainer {
+    width: 70vw;
+    top: -225px;
+    padding: 25px;
+  }
+
+  #acervocontainer > a > img {
+    width: 15vw;
+    margin: 1vw;
+    box-shadow: 2px 2px 5px 2px #00000080;
+  }
+
+  #footerinvertido {
+    margin-top: -225px;
+  }
+
+  /* Pagina dos Itens */
+
+  #item {
     text-align: center;
-    color: #6b2a23;
-}
+    width: 70vw;
+    padding-bottom: 4vh;
+  }
 
-#contato {
-    background-color: #002857;
-}
+  #item > div > img {
+    width: 20px;
+    transform: rotate(0.75turn);
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
 
-#contatocontainer {
-    position: relative;
-    text-align: center;
-    background-color: white;
-    border-radius: 20px;
+  #item > img {
+    margin-top: 4vh;
+    width: 60vw;
+  }
+
+  #item > div > h1 {
+    font-size: 1.3em;
+    width: 60vw;
     margin: auto;
-    box-shadow: 0px 9px 10px #00000026;
-}
+    padding-bottom: 0.7em;
+    margin-bottom: 0.8em;
+    border-bottom: 1px solid #6b2a2380;
+  }
 
-#contatocontainer > div > h2 {
-    font-family: 'EB Garamond', serif;
-    text-transform: uppercase;
-    color: #002857;
-}
+  #item > div > p {
+    margin: auto;
+    width: 60vw;
+    font-size: 0.8em;
+  }
 
-#telefone {
-    border-top: 1px solid #0028574d;
-    border-bottom: 1px solid #0028574d;
-    font-family: 'LFTEticaLight', sans-serif;
-}
+  .navegacaocompleto {
+    display: none;
+  }
 
-#contato > div > div > img {
-    width: 20vw;
-    max-width: 250px;
-}
+  #navegacao > #veja {
+    font-size: 2em;
+    padding-top: 85px;
+    font-weight: bold;
+  }
 
-#contatocontainer > div > h3 {
+  #navegacao > #outrositens {
     font-family: beinglove;
     text-transform: lowercase;
-    font-weight: lighter;
-    color: #0092e6;
-}
+    font-size: 2.5em;
+    margin-top: -20px;
+    color: #867369;
+  }
 
-.dias {
-    font-family: 'LFTEticaLight', sans-serif;
-}
+  #navegacao > div {
+    margin: auto;
+    padding-top: 10px;
+    width: 80vw;
+  }
 
-#contatocontainer > div > p > b {
-    font-family: 'LFTEticaBold', sans-serif;
-}
+  #navegacao > div > div > a > img {
+    width: 22vw;
+    margin: 3vw;
+    box-shadow: 2px 2px 5px 2px #00000080;
+  }
 
-#encontre {
-    background-color: #002857;
-    color: white;
-    text-align: center;
-}
+  #navegacao > div > div > img {
+    width: 12vw;
+  }
 
-#encontre > h2 {
-    font-family: 'EB Garamond', serif;
-    text-transform: uppercase;
-}
+  /* Cardápio */
 
-#encontre > h3 {
-    font-family: beinglove;
-    font-weight: lighter;
-}
+  #cardapio {
+    padding-bottom: 300px;
+  }
 
-#encontre > iframe {
-    border-radius: 20px;
-}
-
-footer {
-    width: 100vw;
-    max-width: 100%;
-    text-align: center;
-    
-}
-
-#footer {
-    background-color: #002857;
-    color: white;
-}
-
-footer > div {
+  #cardapio > div {
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    vertical-align: middle;
+  }
+
+  #cardapio > div > img {
+    width: 10vw;
+    margin-top: -3vw;
+  }
+
+  #cardapio > div > h1 {
+    font-size: 15vw;
+    margin: 0 3vw;
+  }
+
+  #cardapio > p {
+    font-size: 3.4vw;
+  }
+
+  #cardapiocontainer {
+    position: relative;
+    width: 70vw;
+    top: -225px;
+    padding: 20px;
+  }
+
+  #cardapioitem {
+    width: 100%;
+    font-size: 4vw;
+    padding: 2vw 1vw;
+  }
+
+  #cardapiocontainer > h2 {
+    font-size: 5.5vw;
+    padding-bottom: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  #cardapiocomsubtitulo > h2 {
+    font-size: 5.5vw;
+  }
+
+  #cardapiocomsubtitulo > p {
+    font-size: 4vw;
+    padding-bottom: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  #cardapiocontainer > h3 {
+    font-size: 4vw;
+    padding-bottom: 3vw;
+    margin-bottom: 2vw;
+    margin-top: 3vw;
+  }
+
+  #cardapiocentralizado {
+    text-align: center;
+    padding-bottom: 2vw;
+    font-size: 4vw;
+    font-family: "LFTEticaRegular", sans-serif;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #inicial {
+    background-image: url(img/imgprincipal2.png);
+  }
+
+  a {
+    font-size: 1.2em;
+  }
+
+  #menumobile {
+    display: none;
+  }
+
+  #inicial {
+    background-position: center center;
+    padding-top: 8vh;
+    min-height: 600px;
+  }
+
+  #inicial > img {
+    margin: auto;
+    width: 25vw;
+    margin-bottom: 3.5vh;
+  }
+
+  .botao {
+    font-size: 1em;
+    border-radius: 10px;
+  }
+
+  #historia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75vw;
+    max-width: 1200px;
+    top: -5vh;
+    padding: 50px 0px;
+  }
+
+  #historia > img {
+    align-self: center;
+    width: 40%;
+  }
+
+  #historia > div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  #historia > div > img {
+    display: none;
+  }
+
+  #historia > div > h1 {
+    font-size: 5em;
+    margin-top: -0.5em;
+  }
+
+  #historia > div > h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  #historia > div > p {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+
+  hr {
+    height: 12px;
+    width: 75vw;
+  }
+
+  .linhamarrom {
+    margin: -10px auto 0 auto;
+  }
+
+  .linhabranca {
+    margin: 0 auto 0 auto;
+  }
+
+  .grafismo {
+    align-self: center;
+    width: 3em;
+    margin: 0 1.2em;
+  }
+
+  #acervo > div > h1 {
+    font-size: 5.5em;
+  }
+
+  #acervo > div > p {
+    font-size: 1em;
+    margin-bottom: 30px;
+    width: 60vw;
+    max-width: 1000px;
+  }
+
+  #quadrocontainer {
+    width: 75vw;
+    max-width: 1200px;
+    margin: 40px auto 50px auto;
+  }
+
+  #quadrocontainer > a {
+    width: 25%;
+    text-align: center;
+  }
+
+  #quadrocontainer > a > img {
+    width: 75%;
+    box-shadow: 2px 2px 5px 2px #00000080;
+  }
+
+  #quadrocontainer > a > h2 {
+    font-size: 0.8em;
+    margin-top: 2px;
+    margin-bottom: 4em;
+  }
+
+  #contatocontainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75vw;
+    max-width: 1200px;
+    top: -4em;
+    padding: 90px 0px;
+  }
+
+  #videocontainer {
+    width: 75vw;
+    max-width: 1200px;
+    top: -4em;
+    padding: 50px 0px;
+  }
+
+  #videocontainer > div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #videocontainer iframe {
+    width: 46%;
+  }
+
+  .contato {
+    width: 40%;
+  }
+
+  #linhavertical1 {
+    border-left: 1px solid #002857;
+  }
+
+  #contatocontainer > div > h2 {
+    font-size: 2.2em;
+  }
+
+  #telefone {
+    margin: 0.8em auto;
+    padding: 0.5em;
+    font-size: 1.1em;
+    width: 160px;
+  }
+
+  #contatocontainer > div > h3 {
+    font-size: 2.5em;
+    margin-top: -0.7em;
+    margin-bottom: 0.7em;
+  }
+
+  .dias {
+    font-size: 1em;
+  }
+
+  #encontre > img {
+    width: 2em;
+  }
+
+  #encontre > h2 {
+    font-size: 2em;
+  }
+
+  #encontre > h3 {
+    font-size: 4em;
+    margin-top: -0.4em;
+  }
+
+  #encontre > iframe {
+    margin-top: 2em;
+    width: 75vw;
+    max-width: 1200px;
+    height: 450px;
+  }
+
+  footer {
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+
+  footer > div {
+    margin-bottom: 2em;
+  }
+
+  #iconemarca > img {
+    height: 2.5em;
+  }
+
+  #linhavertical2 {
+    height: 60px;
+    margin: 0 20px;
+  }
+
+  .iconesocialmedia > img {
+    height: 2em;
+    margin-right: 10px;
+  }
+
+  footer > p {
+    font-size: 0.6em;
+  }
+
+  /* Pagina do Acervo */
+
+  #acervoprincipal {
+    padding-bottom: 250px;
+  }
+
+  #acervoprincipal > div {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #acervoprincipal > div > img {
+    width: 3em;
+    margin-top: 1.5em;
+  }
+
+  #acervoprincipal > div > h1 {
+    font-size: 5em;
+    margin: 0 0.3em;
+  }
+
+  #acervoprincipal > p {
+    font-size: 1.2em;
+  }
+
+  #acervocontainer {
+    width: 75vw;
+    top: -150px;
+    padding: 50px 50px 35px 50px;
+    max-width: 1200px;
+  }
+
+  #acervocontainer > a > img {
+    width: 9vw;
+    max-width: 160px;
+    margin: 1vw;
+    box-shadow: 2px 2px 5px 2px #00000080;
+  }
+
+  #footerinvertido {
+    margin-top: -150px;
+  }
+
+  /* Pagina dos Itens */
+
+  #item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75vw;
+    max-width: 1200px;
+    padding: 50px 0px;
+  }
+
+  #item > img {
+    width: 40%;
+  }
+
+  #item > div {
+    width: 40%;
+  }
+
+  #item > div > img {
+    width: 28px;
+    transform: rotate(0.75turn);
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  #item > div > h1 {
+    font-size: 1.7em;
+    padding-bottom: 0.7em;
+    margin-bottom: 0.8em;
+    border-bottom: 1px solid #6b2a2380;
+  }
+
+  #item > div > p {
+    margin: auto;
+    font-size: 0.8em;
+  }
+
+  #navegacao > #veja {
+    font-size: 2em;
+    padding-top: 85px;
+    font-weight: bold;
+  }
+
+  #navegacao > #outrositens {
+    font-family: beinglove;
+    text-transform: lowercase;
+    font-size: 2.5em;
+    margin-top: -20px;
+    color: #867369;
+  }
+
+  #navegacao > div {
+    margin: auto;
+    padding-top: 30px;
+    width: 60vw;
+    max-width: 960px;
+  }
+
+  #navegacao > div > div > a > img {
+    width: 10vw;
+    margin: 1vw;
+    max-width: 160px;
+  }
+
+  #navegacao > div > div > img {
+    width: 6vw;
+    max-width: 96px;
+  }
+
+  /* Cardápio */
+
+  #cardapio {
+    padding-bottom: 250px;
+  }
+
+  #cardapio > div {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #cardapio > div > img {
+    width: 3em;
+    margin-top: -1em;
+  }
+
+  #cardapio > div > h1 {
+    font-size: 5em;
+    margin: 0 0.3em;
+  }
+
+  #cardapio > p {
+    font-size: 1.2em;
+  }
+
+  #cardapiocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    width: 75vw;
+    top: -200px;
+    padding: 50px 50px 35px 50px;
+    max-width: 1200px;
+  }
+
+  #cardapiocontainer > h2 {
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.3em;
+  }
+
+  #cardapioitem {
+    width: 45%;
+    font-size: 1em;
+    padding: 0.7em 0.2em;
+  }
+
+  #cardapiocomsubtitulo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #cardapiocomsubtitulo > h2 {
+    font-size: 1.6em;
+  }
+
+  #cardapiocomsubtitulo > p {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.3em;
+  }
+
+  #cardapiocontainer > h3 {
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.8em;
+    margin-top: 0.2em;
+  }
+
+  #cardapioitem.semlinha {
+    border-bottom: none;
+  }
+
+  #cardapiocentralizado {
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1em;
+    font-family: "LFTEticaRegular", sans-serif;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(img/imgtextura.png);
+  position: absolute;
+  max-width: 100%;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5vh;
+  min-height: 35px;
+  background-color: white;
+}
+
+a {
+  font-family: "LFTEticaBold", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav > ul > li > a {
+  color: #002857;
+}
+
+nav > ul > li > a:hover {
+  color: #0092e6;
+}
+
+#iconehome {
+  height: 2.5vh;
+  min-height: 20px;
+  margin-top: 2px;
+}
+
+#inicial {
+  height: 97vh;
+  width: 100vw;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#inicial > img {
+  display: block;
+}
+
+.botao {
+  color: white;
+  font-weight: 800;
+  background-color: #002857;
+  padding: 4px 35px;
+  letter-spacing: 2px;
+}
+
+#historia {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0px 9px 10px #00000026;
+}
+
+#historia > div > h1 {
+  font-family: beinglove;
+  font-weight: normal;
+  text-transform: lowercase;
+  color: #6b2a23;
+  text-decoration: underline #6b2a2380 1px;
+  text-underline-offset: 1vh;
+}
+
+#historia > div > h2 {
+  font-family: "EB Garamond", serif;
+  text-transform: uppercase;
+  color: #867369;
+  text-decoration: underline #6b2a2380 1px;
+  text-underline-offset: 1.5vh;
+  margin-top: -2.5vh;
+}
+
+#historia > div > img {
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  width: 50vw;
+}
+
+#historia > div > p {
+  font-family: "LFTEticaLight", sans-serif;
+  color: #6b2a23;
+}
+
+hr {
+  border-left: none;
+  border-right: none;
+  max-width: 1200px;
+}
+
+.linhamarrom {
+  border-top: 2px dashed #6b2a2380;
+  border-bottom: 1px solid #6b2a2380;
+}
+
+.linhabranca {
+  border-top: 2px dashed #ffffffb3;
+  border-bottom: 1px solid #ffffffb3;
+}
+
+#tituloacervo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grafismo {
+  align-self: center;
+}
+
+#acervo > div > h1 {
+  font-family: beinglove;
+  font-weight: normal;
+  text-transform: lowercase;
+  color: #6b2a23;
+}
+
+#descricaoacervo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#acervo > div > p {
+  font-family: "LFTEticaLight", sans-serif;
+  text-align: center;
+  color: #6b2a23;
+}
+
+#quadrocontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#quadrocontainer > a > h2 {
+  font-family: "EB Garamond", serif;
+  font-weight: 200;
+  font-style: italic;
+  text-transform: none;
+  text-align: center;
+  color: #6b2a23;
+}
+
+#contato,
+#video {
+  background-color: #002857;
+}
+
+#video {
+  padding-bottom: 50px;
+}
+
+#contatocontainer,
+#videocontainer {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0px 9px 10px #00000026;
+}
+
+#videocontainer h3 {
+  font-family: beinglove;
+  font-weight: normal;
+  text-transform: lowercase;
+  color: #6b2a23;
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+#contatocontainer > div > h2 {
+  font-family: "EB Garamond", serif;
+  text-transform: uppercase;
+  color: #002857;
+}
+
+#telefone {
+  border-top: 1px solid #0028574d;
+  border-bottom: 1px solid #0028574d;
+  font-family: "LFTEticaLight", sans-serif;
+}
+
+#contato > div > div > img,
+#video > div > div > img {
+  width: 20vw;
+  max-width: 250px;
+}
+
+#contatocontainer > div > h3 {
+  font-family: beinglove;
+  text-transform: lowercase;
+  font-weight: lighter;
+  color: #0092e6;
+}
+
+.dias {
+  font-family: "LFTEticaLight", sans-serif;
+}
+
+#contatocontainer > div > p > b {
+  font-family: "LFTEticaBold", sans-serif;
+}
+
+#encontre {
+  background-color: #002857;
+  color: white;
+  text-align: center;
+}
+
+#encontre > h2 {
+  font-family: "EB Garamond", serif;
+  text-transform: uppercase;
+}
+
+#encontre > h3 {
+  font-family: beinglove;
+  font-weight: lighter;
+}
+
+#encontre > iframe {
+  border-radius: 20px;
+}
+
+footer {
+  width: 100vw;
+  max-width: 100%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #002857;
+  color: white;
+}
+
+footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
 }
 
 #linhavertical2 {
-    border-left: 1px solid #ffffff80;
+  border-left: 1px solid #ffffff80;
 }
 
 footer > p {
-    font-family: 'LFTEticaLight', sans-serif;
+  font-family: "LFTEticaLight", sans-serif;
 }
 
 /* Pagina do Acervo */
 
 #acervoprincipal {
-    text-align: center;
-    background-color: #002857;
+  text-align: center;
+  background-color: #002857;
 }
 
 #acervoprincipal > div > h1 {
-    color: white;
-    font-family: beinglove;
-    text-transform: lowercase;
-    font-weight: lighter;
+  color: white;
+  font-family: beinglove;
+  text-transform: lowercase;
+  font-weight: lighter;
 }
 
 #acervoprincipal > p {
-    color: white;
-    font-family: 'LFTEticaLight', sans-serif;
-    width: 50%;
-    margin: 0 auto;
+  color: white;
+  font-family: "LFTEticaLight", sans-serif;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #acervocontainer {
-    position: relative;
-    background-color: white;
-    border-radius: 20px;
-    margin: auto;
-    box-shadow: 0px 9px 10px #00000026;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0px 9px 10px #00000026;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #footerinvertido {
-    color: #002857;
+  color: #002857;
 }
 
 #footerinvertido > div > #linhavertical2 {
-    border-left: 1px solid #00295780;
+  border-left: 1px solid #00295780;
 }
 
 /* Pagina dos Itens */
 
 #item {
-    position: relative;
-    top: 30px;
-    background-color: white;
-    border-radius: 20px;
-    margin: auto;
-    box-shadow: 0px 9px 10px #00000026;
+  position: relative;
+  top: 30px;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0px 9px 10px #00000026;
 }
 
 #item > div > h1 {
-    font-family: 'EB Garamond', serif;
-    font-weight: normal;
-    color: #6b2a23;
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+  color: #6b2a23;
 }
 
 #item > div > p {
-    font-family: 'LFTEticaLight', sans-serif;
-    color: #6b2a23;
-    margin-bottom: 10px;
+  font-family: "LFTEticaLight", sans-serif;
+  color: #6b2a23;
+  margin-bottom: 10px;
 }
 
 #navegacao {
-    background-color: #002857;
+  background-color: #002857;
 }
 
 #navegacao > h2 {
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: normal;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 #navegacao > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Cardápio */
 
 #cardapio {
-    text-align: center;
-    background-color: #002857;
+  text-align: center;
+  background-color: #002857;
 }
 
 #cardapio > div > h1 {
-    padding-bottom: 30px;
-    color: white;
-    font-family: beinglove;
-    text-transform: lowercase;
-    font-weight: lighter;
+  padding-bottom: 30px;
+  color: white;
+  font-family: beinglove;
+  text-transform: lowercase;
+  font-weight: lighter;
 }
 
 .cardapiotexto {
-    color: white;
-    font-family: 'LFTEticaLight', sans-serif;
-    width: 70%;
-    margin: 0 auto;
+  color: white;
+  font-family: "LFTEticaLight", sans-serif;
+  width: 70%;
+  margin: 0 auto;
 }
 
 #comcarinho {
-    color: white;
-    padding-top: 15px;
-    font-family: 'LFTEticaItalic', sans-serif;
+  color: white;
+  padding-top: 15px;
+  font-family: "LFTEticaItalic", sans-serif;
 }
 
 #assinatura {
-    color: white;
-    font-family: 'LFTEticaExtra', sans-serif;
+  color: white;
+  font-family: "LFTEticaExtra", sans-serif;
 }
 
 #cardapiocontainer {
-    background-color: white;
-    border-radius: 20px;
-    margin: auto;
-    box-shadow: 0px 9px 10px #00000026;
-    color: #002857;
-    margin-bottom: 50px;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0px 9px 10px #00000026;
+  color: #002857;
+  margin-bottom: 50px;
 }
 
 #cardapiocontainer > h2 {
-    color: #6b2a23;
-    text-align: center;
-    border-bottom: 1px solid #6c2a2380;
-    width: 100%;
+  color: #6b2a23;
+  text-align: center;
+  border-bottom: 1px solid #6c2a2380;
+  width: 100%;
 }
 
 #cardapiocomsubtitulo > h2 {
-    color: #6b2a23;
-    text-align: center;
-    width: 100%;
+  color: #6b2a23;
+  text-align: center;
+  width: 100%;
 }
 
 #cardapiocomsubtitulo > p {
-    color: #6b2a23;
-    text-align: center;
-    width: 100%;
-    text-transform: lowercase;
-    border-bottom: 1px solid #6c2a2380;
+  color: #6b2a23;
+  text-align: center;
+  width: 100%;
+  text-transform: lowercase;
+  border-bottom: 1px solid #6c2a2380;
 }
 
 #cardapiocontainer > h3 {
-    color: #6b2a23;
-    text-align: center;
-    border-bottom: 1px solid #6c2a2380;
-    width: 100%;
+  color: #6b2a23;
+  text-align: center;
+  border-bottom: 1px solid #6c2a2380;
+  width: 100%;
 }
 
-
 #cardapioitem {
-    font-family: 'LFTEticaRegular', sans-serif;
-    border-bottom: 1px solid #00285740;
-    display: flex;
-    justify-content: space-between;
+  font-family: "LFTEticaRegular", sans-serif;
+  border-bottom: 1px solid #00285740;
+  display: flex;
+  justify-content: space-between;
 }
 
 #cardapioitem:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
-
 #cardapioitem > div {
-    width: 75%;
+  width: 75%;
 }
 
 #cardapioitemdescricao {
-    font-family: 'LFTEticaLightItalic', sans-serif;
+  font-family: "LFTEticaLightItalic", sans-serif;
 }
 
 #cardapiopreço {
-    font-family: 'LFTEticaBold', sans-serif;
-    width: 20%;
-    text-align: right;
+  font-family: "LFTEticaBold", sans-serif;
+  width: 20%;
+  text-align: right;
 }
